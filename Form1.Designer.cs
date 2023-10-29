@@ -44,9 +44,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.роботаЗМасивамиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.одновимірніМасивиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.двовимірніМасивиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -170,6 +175,39 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.роботаЗМасивамиToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(871, 25);
+            this.menuStrip1.TabIndex = 12;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // роботаЗМасивамиToolStripMenuItem
+            // 
+            this.роботаЗМасивамиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.одновимірніМасивиToolStripMenuItem,
+            this.двовимірніМасивиToolStripMenuItem});
+            this.роботаЗМасивамиToolStripMenuItem.Name = "роботаЗМасивамиToolStripMenuItem";
+            this.роботаЗМасивамиToolStripMenuItem.Size = new System.Drawing.Size(141, 21);
+            this.роботаЗМасивамиToolStripMenuItem.Text = "Робота з масивами";
+            // 
+            // одновимірніМасивиToolStripMenuItem
+            // 
+            this.одновимірніМасивиToolStripMenuItem.Name = "одновимірніМасивиToolStripMenuItem";
+            this.одновимірніМасивиToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.одновимірніМасивиToolStripMenuItem.Text = "Одновимірні масиви";
+            this.одновимірніМасивиToolStripMenuItem.Click += new System.EventHandler(this.одновимірніМасивиToolStripMenuItem_Click);
+            // 
+            // двовимірніМасивиToolStripMenuItem
+            // 
+            this.двовимірніМасивиToolStripMenuItem.Name = "двовимірніМасивиToolStripMenuItem";
+            this.двовимірніМасивиToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.двовимірніМасивиToolStripMenuItem.Text = "Двовимірні масиви";
+            this.двовимірніМасивиToolStripMenuItem.Click += new System.EventHandler(this.двовимірніМасивиToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,12 +225,16 @@
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Math";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,6 +256,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem роботаЗМасивамиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem одновимірніМасивиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem двовимірніМасивиToolStripMenuItem;
     }
 }
 

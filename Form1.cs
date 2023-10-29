@@ -55,5 +55,19 @@ namespace Practic_work
         {
 
         }
+
+        private void одновимірніМасивиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.Show();
+            this.Hide();
+        }
+
+        private void двовимірніМасивиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3();
+            f.Show();
+            this.Hide();
+        }
     }
 }
