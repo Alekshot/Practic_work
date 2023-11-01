@@ -58,7 +58,7 @@ namespace Practic_work
                 a[i] = rand.Next(-50, 50);
             }
         }
-        //Властивість для обрахунку сум
+        //Властивість для обрахунку елементів збільшених в 2 рази
         public int SumAfterDoubling()
         {
             int S = 0;
