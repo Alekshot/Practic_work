@@ -53,6 +53,17 @@
     <Compile Include="Arrays2D.cs" />
     <Compile Include="Class_prakt3\Calculation_ab.cs" />
     <Compile Include="Class_prakt3\Calculation_abc.cs" />
+    <Compile Include="Class_prakt4\ArraysAB.cs" />
+    <Compile Include="Class_prakt4\FileRead.cs" />
+    <Compile Include="Class_prakt4\FileWrite.cs" />
+    <Compile Include="Class_prakt4\IRead.cs" />
+    <Compile Include="Class_prakt4\ShowArray.cs" />
+    <Compile Include="File.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File.Designer.cs">
+      <DependentUpon>File.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +91,9 @@
     <Compile Include="UnitTest.Designer.cs">
       <DependentUpon>UnitTest.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="File.resx">
+      <DependentUpon>File.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -76,5 +76,12 @@ namespace Practic_work
             f.Show();
             this.Hide();
         }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            File f = new File();
+            f.Show();
+            this.Hide();
+        }
     }
 }
